@@ -13,13 +13,13 @@ The application URL is: http://seuresearch.pythonanywhere.com/
 You may use start testing our web-application using the same running example we presented in our research.
 1) Abbreviation: afl
 2) Source code:
-1.    //Print list of affiliated faculty members
-2.    // forms from applications forms list
-3.    void pAF(ArraryList<Member> afl){
-4.        for(Member mem : afl){
-5.            println(mem)
-6.        }
-7.    }
+//Print list of affiliated faculty members
+// forms from applications forms list
+void pAF(ArraryList<Member> afl){
+      for(Member mem : afl){
+          println(mem)
+      }
+}
 
 # Python tool:
 We implemented our algorithm using python in a form of source code named "code_v_4_24_2018_v2.py". It is runnable using python after installing the required libraries. The python tool can be python tool can be used to expand any number of abbreviations. In the following, we present instructions on how to setup and run the python tool.
