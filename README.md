@@ -11,7 +11,7 @@ The application URL is: http://seuresearch.pythonanywhere.com/
 
 *Sample code for the application:*
 You may use start testing our web-application using the same running example we presented in our research.
-1) Abbreviation: afl
+1) Abbreviation: ``` afl ```
 2) Source code:
 ```
 //Print list of affiliated faculty members
