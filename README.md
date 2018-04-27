@@ -1,5 +1,4 @@
-# Implementation and Demo of:
-# A probabilistic model to expand abbreviations in source code.
+# Implementation of A probabilistic model to expand abbreviations in source code.
 
 # Overview:
 This document provides details and instructions on how to access and run our algorithm of both approaches (unigram and bigram). We present two methods to test our algorithm: (1) a web-application, and (2) a python tool. The web-application can be used only to test expanding one abbreviation, however, the python tool can be used to expand any number of abbreviations. In the following, we present details, usage instructions for each method.
