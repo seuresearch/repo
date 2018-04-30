@@ -13,7 +13,7 @@ You may test our web-application using the following example.
 ```
 //Print list of affiliated faculty members
 // forms from applications forms list
-void pAF(ArraryList<Member> afl){
+void pAFL(ArraryList<Member> afl){
       for(Member mem : afl){
           println(mem)
       }
