@@ -26,12 +26,10 @@ We implemented our algorithm as pythion tool using python programming language, 
 *Instructions*
 1) Install the latest version of Python, or at least Python v4.11.18
 2) Download the zipped folder "code_v_4_24_2018_v2.zip"
-3) Unzip the folder, and run the python code after installing the required libraries, which are:
-                    - pip3 install wordsegment
-                    - pip3 install python-docx
+3) Unzip the folder, and run the python code after installing the required libraries, which are: pip3 install wordsegment and pip3 install python-docx
 4) In the parameters area at the end of the script file, change the parameters to the desired input folder, and make sure:
                     - The abbreviation sets are stored in a CSV file called abbs.csv
-                        and each set is structured as follow: [Abbreviation, Line number, Manulually found expansion]
+                        and each set is structured as follow: [Abbreviation, Line number, Manually found expansion]
                     - The source code files are named following the order of their associated 
                       abbreviations in "abbs.csv"
 5) The tool will present computation details in case you are testing one abbreviation, but if you are testing more than one, the code will give a summary of each abbreviation expansion, and then calculate the expansion accuracy. 
